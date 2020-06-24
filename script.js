@@ -22,6 +22,7 @@ console.log(listaCognomi);
 
 //ordino la lista dei cognomi in ordine alfabetico
 
-
+listaCognomi.sort();
+console.log(listaCognomi);
 
 //stampare l'indice del nuovo utente inserito
