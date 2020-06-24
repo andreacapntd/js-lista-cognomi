@@ -26,3 +26,12 @@ listaCognomi.sort();
 console.log(listaCognomi);
 
 //stampare l'indice del nuovo utente inserito
+
+
+
+for (var i = 0; i < listaCognomi.length; i++) {
+  if (cognomeUtente == listaCognomi[i]) {
+    console.log(i +" " + cognomeUtente);
+  }
+
+}
