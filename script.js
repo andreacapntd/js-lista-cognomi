@@ -29,6 +29,6 @@ console.log(listaCognomi);
 
 for (var i = 0; i < listaCognomi.length; i++) {
   if (cognomeUtente == listaCognomi[i]) {
-    console.log(i +" " + cognomeUtente);
+    console.log((i+1) +" " + cognomeUtente);
   }
 }
